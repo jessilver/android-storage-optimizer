@@ -1,0 +1,12 @@
+name: Sugestão de Funcionalidade
+description: Sugira uma nova ferramenta ou melhoria (ex: varredura de adwares).
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: sugestao
+    attributes:
+      label: Descrição da Funcionalidade
+      description: Descreva o que você gostaria que fosse adicionado.
+    validations:
+      required: true
